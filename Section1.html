@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="img/logo.png">
+    <title>Family School</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/6f751ac0fa.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="div1">
+        <img id="logo" src="img/logo.png" alt="School logo" title="Family logo">
+
+        <h1 id="hmission"> <i>Our Mission</i>:-</h1>
+        <p id="pmission">
+            Our Mission at <Q>Family Language school</Q> is to foster each child's well-being as a foundation for
+            academic and life success by drawing on the strengths of the child's entire community including family,
+            educators,medical and mental health providers.
+        </p>
+
+        <h1 id="hvision"> <i>Our Vision</i>:-</h1>
+        <p id="pvision">
+            We envision a world in which every child, regardless of background, becomes a
+            <strong>healthy</strong> and <strong>smart</strong> child.
+        </p>
+        <hr>
+
+        <h2 id="gallery"> <i>Visit the school through this Gallery</i></h2>
+    </div>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <a href="https://www.facebook.com/FamilySchoolEgypt/posts/pfbid02nuMT8UtuhrN3tnNj2z7uQ1Pm7pH3h8i6LedU7YVaVHQ22hqmSWfTS3i3k9yrw1cfl"
+                target="_blank">
+                <img src="img/math_event.jpg" style="width:100%">
+            </a>
+            <div class="text"> Math Event</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <a href="https://www.facebook.com/FamilySchoolEgypt/posts/pfbid0DuzZrxqc6qYCeDxEPt1Xxv8qAmwjW8exqXym1gZjDno36JnA1KgDbjA92YU9VWBAl"
+                target="_blank">
+                <img src="img/beach_event.jpg" style="width:100%">
+            </a>
+            <div class="text">Beach Event</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <a href="https://m.facebook.com/story.php?story_fbid=pfbid0pFmUtTLMYaDXiwiEKniWnKh8gbo8V2AvHyZNv4r6CNGNesF4evBnvPh7BmBsTsyol&id=100079502540403&mibextid=Nif5oz"
+                target="_blank">
+                <img src="img/funday.jpg" style="width:100%">
+            </a>
+            <div class="text"> scout day</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <a href="https://m.facebook.com/story.php?story_fbid=pfbid032hKPcFy9rJBnzJXyk9ZWWXCh2Rr8qJA3ZJGx7j3HNRvuM3dJNgNHtaxUpQSqyiRRl&id=100079502540403&mibextid=Nif5oz"
+                target="_blank">
+                <img src="img/back.jpg" style="width:100%">
+            </a>
+            <div class="text"> Back To School</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+
+    </div>
+    <hr>
+
+    <table>
+        <caption>School's Timetable</caption>
+        <tr>
+            <th colspan="2">Morning line</th>
+            <th colspan="2">5 classes</th>
+            <th colspan="2">Break</th>
+            <th colspan="2">4 classes</th>
+            <th colspan="2">Leaving</th>
+        </tr>
+        <tr>
+            <td>From</td>
+            <td>To</td>
+            <td>From</td>
+            <td>To</td>
+            <td>From</td>
+            <td>To</td>
+            <td>From</td>
+            <td>To</td>
+            <td>From</td>
+            <td>To</td>
+        </tr>
+        <tr>
+            <td>7am</td>
+            <td>7:30am</td>
+            <td>7:30am</td>
+            <td>11:00am</td>
+            <td>11:00am</td>
+            <td>11:30am</td>
+            <td>11:30am</td>
+            <td>3:00pm</td>
+            <td>3:00pm</td>
+            <td>3:30pm</td>
+        </tr>
+
+    </table>
+    <hr>
+
+    <form id="form" action="index.php" method="post">
+        <h2 id="formlabel">Family Scchool registration form</h2>
+        <div id="parent">
+            <div id="child1">
+                <h3 id="sdata">Student's Data</h3>
+                <label for="sname"> Student Name </label>
+                <input id="sname" type="text" name="student name" placeholder="Student Name" required />
+                <br>
+                <br>
+                <br>
+                <label for="dob"> Date Of Birth </label>
+                <input id="dob" type="date" name="date of birth" placeholder="Date Of Birth" required />
+                <br>
+                <br>
+                <label> Religion </label>
+                <br>
+                <input id="Mslm" type="radio" name="religion" value="m" required />
+                <label for="Mslm"> Muslim </label>
+                <input id="Chris" type="radio" name="religion" value="c" required />
+                <label for="Chris"> Christian </label>
+                <br>
+                <br>
+                <label> Gender </label>
+                <br>
+                <input id="fm" type="radio" name="gender" value="f" required />
+                <label for="fm"> Female </label>
+                <input id="m" type="radio" name="gender" value="m" required />
+                <label for="m"> Male </label>
+                <br>
+                <br>
+                <label> Nationality </label>
+                <br>
+                <input id="eg" type="radio" name="nationality" value="egypt" required />
+                <label for="eg"> Egyptian </label>
+                <input id="not" type="radio" name="nationality" value="foreign" required />
+                <label for="not"> Others </label>
+                <br>
+                <br>
+                <label for="st"> Stage </label>
+                <select id="st" name="stage">
+                    <option value="0" selected disabled> Stage </option>
+                    <option value="1"> KG </option>
+                    <option value="2"> Primary </option>
+                    <option value="3"> preparatory </option>
+                    <option value="4"> Secondary </option>
+                </select>
+                <br>
+                <br>
+                <label for="adrs"> Address </label>
+                <input id="adrs" type="text" name="address" placeholder="Address" required />
+                <br>
+            </div>
+            <div id="child2">
+                <h3 id="pdata">Paternts' Data</h3>
+                <label for="pname1"> Father Name </label>
+                <input id="pname1" type="text" name="father name" placeholder="Father Name" required />
+                <br>
+                <br>
+                <br>
+                <label for="pname2"> Mother Name </label>
+                <input id="pname2" type="text" name="mother name" placeholder="Mother Name" required />
+                <br>
+                <h3>Choose Appointment Time</h3>
+                <h4>Available Times:-</h4>
+                <input id="op1" type="radio" name="apnt" value="8" required />
+                <label for="op1"> 08:00 am </label>
+                <br>
+                <input id="op2" type="radio" name="apnt" value="10" required />
+                <label for="op2"> 10:00 am </label>
+                <br>
+                <input id="op3" selected disabled type="radio" name="apnt" value="12" required />
+                <label for="op3"> 12:00 pm reserved </label>
+                <br>
+                <input id="op4" type="radio" name="apnt" value="2" required />
+                <label for="op4"> 02:00 pm </label>
+                <br>
+            </div>
+        </div>
+        <div id="bdiv">
+            <button id="reset" type="reset" name="btn" onclick="msg()">
+                Reset
+            </button>
+            <button id="submit" type="submit" onclick="msg2()">
+                submit
+            </button>
+        </div>
+    </form>
+
+    <div class="container">
+        <img src="img/school.jpg" alt="img" style="width:100%;">
+        <div class="content">
+            <h1>Contact Info</h1>
+            <a href="tel:+201011011098" target="_blank">
+                <p><i class="fas fa-phone"></i> +201011011098</p>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?hl=en-GB#inbox?compose=new" target="_blank">
+                <p><i class="fas fa-envelope"></i> info@familyschooleg.com</p>
+            </a>
+            <h2>Visit Us</h2>
+            <a href="https://maps.app.goo.gl/XixYytV5ZR4wmVnj7" target="_blank">
+                <p><i class="fas fa-location"></i>Kotor-Tanta,nearby sabarabay bus station, Sibirbâi, Egypt</p>
+            </a>
+            <h2>Quick Links</h2>
+            <a href="https://www.facebook.com/FamilySchoolEgypt" target="_blank"> <i
+                    class="fa-brands fa-facebook"></i></a>
+
+            <a href="tel:+201011011098" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+
+            <a href="https://www.linkedin.com/in/shaimaa-elkhatieb-8162561b/" target="_blank"> <i
+                    class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        function msg() {
+            var v = confirm("Are you sure you want to rest?");
+            if (v == true) {
+                alert("ok");
+            }
+            else {
+                alert("cancel");
+            }
+        }
+
+        function msg2() {
+            alert("Are you sure you want to submit?");
+        }
+
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>
